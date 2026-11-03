@@ -28,7 +28,7 @@ function HistoryPage() {
           <figure className="mb-10">
             <span className="relative block">
               <img
-                src={publicUrl("museum/gallery.jpg")}
+                src={publicUrl("museum/gallery.webp")}
                 alt={t({
                   ko: "연표가 벽에 있는 역사 전시실의 가상 내부",
                   id: "Interior virtual ruang sejarah dengan linimasa di dinding",

@@ -145,7 +145,7 @@ export const halls: {
 }[] = [
   {
     to: "/history",
-    image: publicUrl("museum/gallery.jpg"),
+    image: publicUrl("museum/gallery.webp"),
     title: L("역사 전시관", "Ruang sejarah", "History hall", "Rohangan sajarah"),
     body: L(
       "정복부터 1813년 퇴위까지 열한 장면. 장면마다 지도, 인물, 짧은 해설. 17세기 회사와 19세기 식민 정부는 나누어 적습니다.",
@@ -157,7 +157,7 @@ export const halls: {
   },
   {
     to: "/artifacts",
-    image: publicUrl("museum/cannon.jpg"),
+    image: publicUrl("museum/cannon.webp"),
     title: L("유물 전시관", "Ruang artefak", "Object hall", "Rohangan barang"),
     body: L(
       "대포, 석기, 도자기, 화폐, 건축 부재. 1차 후보입니다. 최종 선정은 소장처와 합니다.",
@@ -169,7 +169,7 @@ export const halls: {
   },
   {
     to: "/sites",
-    image: publicUrl("museum/masjid.jpg"),
+    image: publicUrl("museum/masjid.webp"),
     title: L("유적 360° 영상관", "Ruang film 360°", "Site film hall", "Rohangan pilem 360°"),
     body: L(
       "반튼 라마의 여덟 곳. 폐허에는 사료가 받치는 범위만 전성기를 겹칩니다. 여기는 그 겹치기의 자리표시입니다.",
@@ -211,7 +211,7 @@ export const scenes: Scene[] = [
       "It is not decided which year is called the founding: the 1526 conquest, the 1527 occupation, or independence in 1552.",
       "Acan diputuskeun taun mana nu disebut ngadeg.",
     ),
-    image: publicUrl("museum/city-air.jpg"),
+    image: publicUrl("museum/city-air.webp"),
     imageAlt: L(
       "성벽과 운하가 있는 항구도시의 가상 항공 이미지",
       "Gambar udara virtual kota pelabuhan berparit",
@@ -230,7 +230,7 @@ export const scenes: Scene[] = [
       "Independence from Cirebon, and Hasanuddin takes the throne. The brief places Surosowan palace in this year. Today only low walls and a pool remain.",
       "Merdeka ti Cirebon, Hasanuddin naik takhta. Keraton Surosowan diteundeun dina taun ieu.",
     ),
-    image: publicUrl("museum/palace-recon.jpg"),
+    image: publicUrl("museum/palace-recon.webp"),
     imageAlt: L(
       "연못과 층층 지붕이 있는 궁궐의 가상 복원",
       "Rekonstruksi virtual keraton dengan kolam dan atap bertingkat",
@@ -262,7 +262,7 @@ export const scenes: Scene[] = [
       "Cornelis de Houtman’s Dutch fleet reached Banten.",
       "Armada Walanda Cornelis de Houtman dugi ka Banten.",
     ),
-    image: publicUrl("museum/harbor.jpg"),
+    image: publicUrl("museum/harbor.webp"),
     imageAlt: L(
       "범선과 창고가 있는 항구의 가상 이미지",
       "Gambar virtual pelabuhan dengan kapal layar dan gudang",
@@ -299,7 +299,7 @@ export const scenes: Scene[] = [
       "The spelling Ageng follows the national-hero form, for now. Some scholars argue the sources say Agung. Not locked.",
       "Éjahan samentara Ageng, nuturkeun pahlawan nasional. Acan dikonci.",
     ),
-    image: publicUrl("museum/harbor.jpg"),
+    image: publicUrl("museum/harbor.webp"),
     imageAlt: L(
       "황금시간대의 향신료 항구, 가상 복원",
       "Pelabuhan rempah di cahaya senja, rekonstruksi virtual",
@@ -318,7 +318,7 @@ export const scenes: Scene[] = [
       "Ageng attacked his son, Haji. The Dutch intervened and Banten became a protectorate. Fort Speelwijk was built at the harbor mouth.",
       "Ageng nyerang putrana, Haji. Walanda campur tangan, Banten jadi protektorat. Benteng Speelwijk nangtung di muara.",
     ),
-    image: publicUrl("museum/fort.jpg"),
+    image: publicUrl("museum/fort.webp"),
     imageAlt: L(
       "해변의 벽돌 요새, 가상 이미지",
       "Benteng bata di tepi laut, gambar virtual",
@@ -356,7 +356,7 @@ export const scenes: Scene[] = [
       "Sources disagree: 1680 under the Dutch, 1808 under Daendels, or 1832 by central-government order.",
       "Sumber béda: 1680, 1808, atawa 1832.",
     ),
-    image: publicUrl("museum/palace-ruins.jpg"),
+    image: publicUrl("museum/palace-ruins.webp"),
     imageAlt: L(
       "낮은 벽돌 기초와 연못이 남은 궁터의 가상 이미지",
       "Gambar virtual pondasi bata rendah dan kolam keraton",
@@ -394,7 +394,7 @@ export const scenes: Scene[] = [
       "From 2016 the sultan’s title continues again. The name of a living person is written after review.",
       "Ti 2016 gelar sultan diteruskeun deui. Ngaran anu hirup ditulis sanggeus pariksa.",
     ),
-    image: publicUrl("museum/masjid.jpg"),
+    image: publicUrl("museum/masjid.webp"),
     imageAlt: L(
       "흰 탑과 층층 지붕의 대사원, 가상 이미지",
       "Gambar virtual masjid beratap tumpang dengan menara putih",
@@ -454,7 +454,7 @@ export const artifacts: Artifact[] = [
       "The year 1529 only circulates as an explanation. It does not enter the final sentence.",
       "Taun 1529 ngan katerangan. Ulah asup kana kalimat final.",
     ),
-    image: publicUrl("museum/cannon.jpg"),
+    image: publicUrl("museum/cannon.webp"),
     imageAlt: L(
       "금 상감이 있는 청동 대포의 가상 박물관 사진",
       "Foto virtual meriam perunggu berukir emas",
@@ -477,7 +477,7 @@ export const artifacts: Artifact[] = [
       "Némbongkeun industri lada jeung gula. Sumber béda ngeunaan gunana.",
     ),
     digital: L("3D 스캔 예정", "Rencana pemindaian 3D", "3D scan planned", "Rencana pindai 3D"),
-    image: publicUrl("museum/stones.jpg"),
+    image: publicUrl("museum/stones.webp"),
     imageAlt: L(
       "화산암 분쇄 석기의 가상 박물관 사진",
       "Foto virtual batu tumbuk dari batu gunung api",
@@ -500,7 +500,7 @@ export const artifacts: Artifact[] = [
       "Batu datar dina daptar situs. Gunana acan dipastikeun.",
     ),
     digital: L("3D 스캔과 현장 360°를 연결", "Pemindaian 3D disambung ke 360° lapangan", "3D scan linked to the on-site 360°", "Pindai 3D disambung ka 360°"),
-    image: publicUrl("museum/watu.jpg"),
+    image: publicUrl("museum/watu.webp"),
     imageAlt: L(
       "벽돌 기초 사이의 평평한 석판, 가상 이미지",
       "Gambar virtual lempeng batu datar di antara pondasi bata",
@@ -524,7 +524,7 @@ export const artifacts: Artifact[] = [
       "Barang Tiongkok, Jepang, Vietnam, Wétan Tengah, jeung Éropa kaluar babarengan.",
     ),
     digital: L("대표품 3D와 무역로 지도", "3D benda wakil dan peta jalur", "3D of representative pieces, plus a trade map", "3D barang wakil jeung peta jalur"),
-    image: publicUrl("museum/porcelain.jpg"),
+    image: publicUrl("museum/porcelain.webp"),
     imageAlt: L(
       "여러 산지의 도자기를 모은 가상 정물",
       "Benda mati virtual keramik dari beberapa negeri",
@@ -547,7 +547,7 @@ export const artifacts: Artifact[] = [
       "Némbongkeun duit naon nu berlaku di dieu.",
     ),
     digital: L("고해상 사진과 확대", "Foto resolusi tinggi dan perbesaran", "High-resolution photo and zoom", "Poto résolusi luhur"),
-    image: publicUrl("museum/coins.jpg"),
+    image: publicUrl("museum/coins.webp"),
     imageAlt: L(
       "옛 동전 몇 점의 가상 접사",
       "Makro virtual beberapa koin lama",
@@ -576,7 +576,7 @@ export const artifacts: Artifact[] = [
       "The brick photograph below is a virtual impression of the Kaibon gate, not a record of a specific fragment.",
       "Poto bata di handap kesan maya gapura Kaibon, lain dokumén pecahan.",
     ),
-    image: publicUrl("museum/kaibon.jpg"),
+    image: publicUrl("museum/kaibon.webp"),
     imageAlt: L(
       "벽돌 궁문의 가상 이미지",
       "Gambar virtual gapura bata",
@@ -614,7 +614,7 @@ export const sites: Site[] = [
       "The founding year is given as 1552, 1556, or 1566. It is shown without a year.",
       "Taun ngadeg béda: 1552, 1556, atawa 1566. Dipidangkeun tanpa taun.",
     ),
-    image: publicUrl("museum/masjid.jpg"),
+    image: publicUrl("museum/masjid.webp"),
     imageAlt: L("흰 탑이 있는 대사원의 가상 이미지", "Gambar virtual masjid dengan menara putih", "Virtual image of the mosque and its white tower", "Gambar maya masjid"),
     artifactId: "cannon",
   },
@@ -624,7 +624,7 @@ export const sites: Site[] = [
     kind: L("1552년 건립으로 기획서에 적힘. 술탄의 거처", "Disebut berdiri 1552 di naskah. Kediaman sultan", "Placed in 1552 by the brief. The sultan’s residence", "Disebut ngadeg 1552 dina naskah"),
     now: L("1–2미터 높이의 벽과 터, 연못.", "Dinding setinggi 1–2 meter, tapak, dan kolam.", "Walls one to two meters high, the footprint, and a pool.", "Témbok jangkung 1–2 méter, tapak, jeung balong."),
     point: L("항공과, 사료가 받치는 복원만 겹칩니다.", "Udara, dan tumpangan pulihan hanya sejauh sumber.", "An aerial, and an overlay only where sources support it.", "Udara, jeung tumpangan ngan sajauh sumber."),
-    image: publicUrl("museum/palace-ruins.jpg"),
+    image: publicUrl("museum/palace-ruins.webp"),
     imageAlt: L("궁터의 가상 이미지", "Gambar virtual tapak keraton", "Virtual image of the palace footprint", "Gambar maya tapak keraton"),
     compare: true,
     artifactId: "watu",
@@ -635,7 +635,7 @@ export const sites: Site[] = [
     kind: L("술탄 샤피우딘의 어머니 라투 아이샤의 거처", "Kediaman Ratu Aisyah, ibu Sultan Syafiuddin", "Home of Ratu Aisyah, mother of Sultan Syafiuddin", "Imah Ratu Aisyah, indung Sultan Syafiuddin"),
     now: L("폐허. 일부 건물이 보입니다.", "Reruntuhan. Sebagian bangunan masih terlihat.", "A ruin. Part of the buildings can still be seen.", "Ruruntuh. Sabagian wangunan masih katingali."),
     point: L("정문과 담.", "Gapura dan tembok.", "The gate and the walls.", "Gapura jeung témbok."),
-    image: publicUrl("museum/kaibon.jpg"),
+    image: publicUrl("museum/kaibon.webp"),
     imageAlt: L("벽돌 궁문의 가상 이미지", "Gambar virtual gapura bata", "Virtual image of a brick gate", "Gambar maya gapura"),
     artifactId: "fragments",
   },
@@ -645,7 +645,7 @@ export const sites: Site[] = [
     kind: L("네덜란드가 세운 요새", "Benteng yang didirikan Belanda", "A fort built by the Dutch", "Benteng nu didirikeun Walanda"),
     now: L("문화재로 관리됩니다.", "Dikelola sebagai cagar budaya.", "Kept as heritage.", "Diurus salaku cagar budaya."),
     point: L("성벽 위, 항구 쪽을 봅니다.", "Dari atas tembok, menghadap pelabuhan.", "From the wall, looking toward the harbor.", "Ti luhur témbok, nyanghareupan palabuhan."),
-    image: publicUrl("museum/fort.jpg"),
+    image: publicUrl("museum/fort.webp"),
     imageAlt: L("해안 요새의 가상 이미지", "Gambar virtual benteng pantai", "Virtual image of a coastal fort", "Gambar maya benteng"),
   },
   {
@@ -654,7 +654,7 @@ export const sites: Site[] = [
     kind: L("약 5헥타르의 인공 호수", "Danau buatan sekitar 5 hektare", "A made lake of about five hectares", "Situ jieunan kira 5 héktar"),
     now: L("정수 시설의 일부가 남았습니다.", "Sebagian instalasi air masih ada.", "Part of the waterworks remains.", "Sabagian instalasi cai masih aya."),
     point: L("항공과, 정수 시설에 바짝 다가간 샷.", "Udara, dan bidikan dekat instalasi air.", "An aerial, and a close shot of the waterworks.", "Udara, jeung shot deukeut instalasi cai."),
-    image: publicUrl("museum/lake.jpg"),
+    image: publicUrl("museum/lake.webp"),
     imageAlt: L("인공 호수의 가상 항공 이미지", "Gambar udara virtual danau buatan", "Virtual aerial of a made lake", "Gambar udara maya situ"),
   },
   {
@@ -676,7 +676,7 @@ export const sites: Site[] = [
     kind: L("인도네시아에서 가장 오래된 중국 사원 가운데 하나", "Salah satu kelenteng Tionghoa tertua di Indonesia", "One of the oldest Chinese temples in Indonesia", "Salah sahiji kelenteng Tionghoa pangkolotna di Indonésia"),
     now: L("지금도 활동합니다.", "Masih hidup.", "Still active.", "Masih hirup."),
     point: L("여러 공동체가 한 도시에 있었다는 장면.", "Adegan bahwa beberapa komunitas ada di satu kota.", "A scene of several communities in one city.", "Adegan sababaraha komunitas dina hiji kota."),
-    image: publicUrl("museum/temple.jpg"),
+    image: publicUrl("museum/temple.webp"),
     imageAlt: L("중국 사원 마당의 가상 이미지", "Gambar virtual halaman kelenteng", "Virtual image of a temple courtyard", "Gambar maya halaman kelenteng"),
   },
   {
@@ -1079,21 +1079,21 @@ export const filmstrip: {
   {
     href: "/artifacts",
     hash: "cannon",
-    image: publicUrl("museum/cannon.jpg"),
+    image: publicUrl("museum/cannon.webp"),
     alt: artifacts[0].imageAlt!,
     caption: artifacts[0].name,
   },
   {
     href: "/artifacts",
     hash: "porcelain",
-    image: publicUrl("museum/porcelain.jpg"),
+    image: publicUrl("museum/porcelain.webp"),
     alt: artifacts[3].imageAlt!,
     caption: artifacts[3].name,
   },
   {
     href: "/sites",
     hash: "masjid",
-    image: publicUrl("museum/masjid.jpg"),
+    image: publicUrl("museum/masjid.webp"),
     alt: sites[0].imageAlt!,
     caption: sites[0].name,
   },
