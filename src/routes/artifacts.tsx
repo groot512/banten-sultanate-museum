@@ -25,13 +25,13 @@ function ArtifactsPage() {
         />
         <section className="mx-auto grid max-w-6xl gap-6 px-5 pb-12 md:grid-cols-12" aria-label="3D">
           <div className="md:col-span-5">
-            <ModelViewer alt={t({ ko: "3D 뷰어 샘플 모델", id: "Model contoh penampil 3D", en: "3D viewer sample model", su: "Model conto 3D" })} sampleLabel={t({ ko: "샘플", id: "Contoh", en: "Sample", su: "Conto" })} />
+            <ModelViewer alt={t({ ko: "3D 뷰어 예시 모델(반튼 유물 아님)", id: "Model contoh penampil 3D", en: "3D viewer sample model", su: "Model conto 3D" })} sampleLabel={t({ ko: "예시", id: "Contoh", en: "Sample", su: "Conto" })} />
           </div>
           <div className="md:col-span-7">
-            <p className="text-sm text-gold">{t({ ko: "3D 유물 뷰어 · 샘플", id: "Penampil artefak 3D · contoh", en: "3D object viewer · sample", su: "Panémbong 3D · conto" })}</p>
+            <p className="text-sm text-gold">{t({ ko: "3D 유물 뷰어 · 예시(실제 반튼 유물 아님)", id: "Penampil artefak 3D · contoh", en: "3D object viewer · sample", su: "Panémbong 3D · conto" })}</p>
             <h2 className="mt-1 font-display text-3xl text-sand">{t({ ko: "돌려보고 확대하는 유물", id: "Putar dan perbesar benda", en: "Turn and zoom an object", su: "Puter jeung gedéan" })}</h2>
             <p className="mt-4 max-w-xl leading-relaxed text-sand">{t({
-              ko: "드래그로 돌리고, 휠이나 두 손가락으로 확대합니다. 지금 모델은 구조 확인용 공개 샘플(Khronos glTF 샘플 Lantern, CC0)이며 반튼 유물이 아닙니다. 유물 3D 스캔이 나오면 같은 자리에 들어갑니다.",
+              ko: "드래그로 돌리고, 휠이나 두 손가락으로 확대합니다. 지금 모델은 구조 확인용 공개 예시(Khronos glTF 샘플 Lantern, CC0)이며 반튼 유물이 아닙니다. 유물 3D 스캔이 나오면 같은 자리에 들어갑니다.",
               id: "Seret untuk memutar, gulir atau dua jari untuk memperbesar. Model ini contoh publik (Khronos Lantern, CC0), bukan artefak Banten.",
               en: "Drag to turn, scroll or pinch to zoom. This model is a public sample (Khronos glTF Lantern, CC0), not a Banten object. Real scans will replace it.",
               su: "Model ieu conto umum (Khronos Lantern, CC0), lain barang Banten.",

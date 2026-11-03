@@ -27,10 +27,10 @@ function SitesPage() {
         />
         <section className="mx-auto grid max-w-6xl gap-6 px-5 pb-12 lg:grid-cols-12" aria-label="360">
           <div className="lg:col-span-7">
-            <PanoramaViewer title={t({ ko: "360° 샘플", id: "Contoh 360°", en: "360° sample", su: "Conto 360°" })} sampleLabel={t({ ko: "샘플", id: "Contoh", en: "Sample", su: "Conto" })} />
+            <PanoramaViewer title={t({ ko: "360° 예시", id: "Contoh 360°", en: "360° sample", su: "Conto 360°" })} sampleLabel={t({ ko: "예시", id: "Contoh", en: "Sample", su: "Conto" })} />
           </div>
           <div className="lg:col-span-5">
-            <p className="text-sm text-gold">{t({ ko: "360° 유적 뷰어 · 샘플", id: "Penampil situs 360° · contoh", en: "360° site viewer · sample", su: "Panémbong 360° · conto" })}</p>
+            <p className="text-sm text-gold">{t({ ko: "360° 유적 뷰어 · 예시(실제 반튼 유적 아님)", id: "Penampil situs 360° · contoh", en: "360° site viewer · sample", su: "Panémbong 360° · conto" })}</p>
             <h2 className="mt-1 font-display text-3xl text-sand">{t({ ko: "안에 서서 둘러보기", id: "Berdiri dan melihat sekeliling", en: "Stand inside and look around", su: "Nangtung jeung ningali" })}</h2>
             <p className="mt-4 leading-relaxed text-sand">{t({
               ko: "화면을 눌러 불러온 뒤 드래그로 둘러봅니다. 지금 사진은 Pannellum 예제 파노라마로, 반튼 유적이 아닙니다. 여덟 곳의 360° 촬영본이 나오면 같은 자리에 들어갑니다.",
