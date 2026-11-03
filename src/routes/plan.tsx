@@ -38,7 +38,7 @@ function PlanPage() {
           <p className="mt-3 max-w-2xl text-pretty text-mist">{t(ui.aerialCaption)}</p>
           <figure className="mt-6">
             <span className="relative block">
-              <img src={publicUrl("museum/museum-air.jpg")} alt={t(ui.aerialCaption)} className="aspect-video w-full object-cover" />
+              <img src={publicUrl("museum/museum-air.webp")} alt={t(ui.aerialCaption)} className="aspect-video w-full object-cover" />
               <span className="absolute left-3 top-3">
                 <VirtualBadge />
               </span>

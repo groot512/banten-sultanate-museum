@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Footer, Header, PageIntro, VirtualBadge } from "@/components/shell";
 import { Compare } from "@/components/compare";
+import { PanoramaViewer } from "@/components/viewers";
 import { useT } from "@/lib/i18n";
 import { artifacts, publicUrl, sites, ui } from "@/lib/content";
 
@@ -24,6 +25,21 @@ function SitesPage() {
             su: "Dalapan tempat di Banten Lama. Gambar di handap ngan pananda saméméh syuting.",
           })}
         />
+        <section className="mx-auto grid max-w-6xl gap-6 px-5 pb-12 lg:grid-cols-12" aria-label="360">
+          <div className="lg:col-span-7">
+            <PanoramaViewer title={t({ ko: "360° 예시", id: "Contoh 360°", en: "360° sample", su: "Conto 360°" })} sampleLabel={t({ ko: "예시", id: "Contoh", en: "Sample", su: "Conto" })} />
+          </div>
+          <div className="lg:col-span-5">
+            <p className="text-sm text-gold">{t({ ko: "360° 유적 뷰어 · 예시(실제 반튼 유적 아님)", id: "Penampil situs 360° · contoh", en: "360° site viewer · sample", su: "Panémbong 360° · conto" })}</p>
+            <h2 className="mt-1 font-display text-3xl text-sand">{t({ ko: "안에 서서 둘러보기", id: "Berdiri dan melihat sekeliling", en: "Stand inside and look around", su: "Nangtung jeung ningali" })}</h2>
+            <p className="mt-4 leading-relaxed text-sand">{t({
+              ko: "화면을 눌러 불러온 뒤 드래그로 둘러봅니다. 지금 사진은 예시 파노라마(Poly Haven “Kloofendal 48d Partly Cloudy”, Greg Zaal, CC0)로, 반튼 유적이 아닙니다. 여덟 곳의 360° 촬영본이 나오면 같은 자리에 들어갑니다.",
+              id: "Klik untuk memuat, lalu seret. Foto ini panorama contoh (Poly Haven, CC0), bukan situs Banten.",
+              en: "Click to load, then drag to look around. This is an example panorama (Poly Haven “Kloofendal 48d Partly Cloudy” by Greg Zaal, CC0), not a Banten site. The eight site shoots will replace it.",
+              su: "Ieu panorama conto (Poly Haven, CC0), lain situs Banten.",
+            })}</p>
+          </div>
+        </section>
         <div className="mx-auto max-w-6xl px-5 pb-20">
           {sites.map((site) => {
             const object = artifacts.find((item) => item.id === site.artifactId);
@@ -33,8 +49,8 @@ function SitesPage() {
                   {site.compare ? (
                     <Compare
                       className="aspect-video min-h-72"
-                      beforeSrc={publicUrl("museum/palace-recon.jpg")}
-                      afterSrc={publicUrl("museum/palace-ruins.jpg")}
+                      beforeSrc={publicUrl("museum/palace-recon.webp")}
+                      afterSrc={publicUrl("museum/palace-ruins.webp")}
                       beforeAlt={{
                         ko: "스로소완의 전성기 가상 복원",
                         id: "Rekonstruksi virtual Surosowan masa jaya",

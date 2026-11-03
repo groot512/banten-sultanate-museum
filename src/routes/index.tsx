@@ -20,8 +20,8 @@ function Home() {
               className="min-h-screen"
               offsetHeader
               showBadge={false}
-              beforeSrc={publicUrl("museum/palace-recon.jpg")}
-              afterSrc={publicUrl("museum/palace-ruins.jpg")}
+              beforeSrc={publicUrl("museum/palace-recon.webp")}
+              afterSrc={publicUrl("museum/palace-ruins.webp")}
               beforeAlt={{
                 ko: "전성기 궁궐의 가상 복원",
                 id: "Rekonstruksi virtual keraton masa jaya",
@@ -139,7 +139,7 @@ function Home() {
           <figure className="mt-8">
             <span className="relative block">
               <img
-                src={publicUrl("museum/museum-air.jpg")}
+                src={publicUrl("museum/museum-air.webp")}
                 alt={t(ui.aerialCaption)}
                 className="aspect-video w-full object-cover"
                 loading="lazy"
