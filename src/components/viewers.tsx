@@ -7,7 +7,8 @@ import { createElement, useEffect, useRef, useState } from "react";
  */
 export const SAMPLE_MODEL =
   "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/Lantern/glTF-Binary/Lantern.glb";
-export const SAMPLE_PANORAMA = "https://pannellum.org/images/alma.jpg";
+// Poly Haven "Kloofendal 48d Partly Cloudy" (Greg Zaal), CC0: https://polyhaven.com/a/kloofendal_48d_partly_cloudy
+export const SAMPLE_PANORAMA = `${import.meta.env.BASE_URL}samples/pano-example.webp`;
 
 const MODEL_VIEWER_JS = "https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js";
 const PANNELLUM_JS = "https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js";
