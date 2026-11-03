@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600&family=Noto+Serif+KR:wght@500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0c100e;
+  --color-teak: #16130f;
+  --color-panel: #211c16;
+  --color-line: #3a3328;
+  --color-sand: #f3ebdd;
+  --color-mist: #b3a48e;
+  --color-gold: #c9a15b;
+  --font-sans: "Noto Sans KR", system-ui, sans-serif;
+  --font-display: "Noto Serif KR", "Times New Roman", serif;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    background: var(--color-ink);
+    color: var(--color-sand);
+    font-family: var(--font-sans);
+  }
+
+  ::selection {
+    background: var(--color-gold);
+    color: var(--color-ink);
+  }
+
+  [id] {
+    scroll-margin-top: 5.5rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+.skip {
+  position: absolute;
+  left: 0.75rem;
+  top: 0.75rem;
+  z-index: 80;
+  transform: translateY(-200%);
+  background: var(--color-gold);
+  color: var(--color-ink);
+  padding: 0.5rem 0.75rem;
+}
+
+.skip:focus {
+  transform: none;
+}
+
+input[type="range"].compare {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 2.75rem;
+  background: transparent;
+}
+
+input[type="range"].compare:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+input[type="range"].compare::-webkit-slider-runnable-track {
+  height: 1px;
+  background: var(--color-sand);
+}
+
+input[type="range"].compare::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -11px;
+  height: 22px;
+  width: 22px;
+  border-radius: 999px;
+  background: var(--color-gold);
+  border: 2px solid var(--color-ink);
+}
+
+input[type="range"].compare::-moz-range-track {
+  height: 1px;
+  background: var(--color-sand);
+}
+
+input[type="range"].compare::-moz-range-thumb {
+  height: 22px;
+  width: 22px;
+  border: none;
+  border-radius: 999px;
+  background: var(--color-gold);
+}
